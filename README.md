@@ -2,6 +2,15 @@
 I have started this Project because of my interest and curiosity in System Administration and also to improve my skills in foundational Competency of IT-Operations.
 
 This Project is a documentation of an Active-Directory-Lab-Tree with a Windows Server 2019 as Domain, WIndows 10 pro as Client within Oracle VirtualBox. 
-Aim: hands-on IT-Administration-Setup with a valid documentation, Tests and also Troubleshoots.
 
 To ensure safe experimentation while preserving internet access, the lab environment is isolated by using internal- and NAT-networks.
+
+## Aim 
+hands-on IT-Administration-Setup with a valid documentation, Tests and also Troubleshoots.
+
+## Learning Objectives
+- Understand the fundamental concepts of Active Directory and its role in network administration
+- Develop skills in utilizing virtualization software (such as VirtualBox) to create and manage virtual machines
+- Learn to set up and manage a Domain Controller within a network infrastructure
+- Develop problem-solving skills through troubleshooting any issues encountered during the setup and configuration process
+

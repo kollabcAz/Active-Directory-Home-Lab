@@ -4,7 +4,7 @@ First I navigated through FIle->Tools->Networkmanager and went to the following 
 ![VBox NAT-Network setup](screenshots/05-vbox-tools-network-config.png)
 
 
-Then after setting up the Server-Whizard, i've configured the Network Adapters. So in this case the first Tab as "External Network".
+Then after setting up the Server-Wizard, i've configured the Network Adapters. So in this case the first Tab as "External Network".
 
 ![Server Adapter 1](screenshots/01-vbox-adapter-extern-server.png)
 

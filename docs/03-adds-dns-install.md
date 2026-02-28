@@ -6,3 +6,8 @@ Now i navigated on the Dashboard to ->Add roles and features->Server Roles and s
 and also Domain Name System Server.
 
 ![Installing DNS](screenshots/09-dns-install.png)
+
+
+
+
+![Promote to DC](screenshots/10-.png)

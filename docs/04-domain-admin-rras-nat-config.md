@@ -4,4 +4,4 @@ Following with choosing the destinated password i've also unchecked "User must c
 ![Creating Domain Admin](screenshots/14-create-domain-admin.png)
 
 Lastly, by rightclicking (or doubleclicking) on destinated User i navigated to "Member of" and clicked on "Add..." to type in "Domain Admin" in the large Textfield, the "object name to select"-field.
-![Giving Admin-privillege](screenshots/15-.png)
+![Giving Admin-privilege](screenshots/15-giving-admin-privilege.png)

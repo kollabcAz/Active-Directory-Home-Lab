@@ -10,4 +10,16 @@ Then, i just authorized DHCP up here.
 Following to the authorization, i navigated to "Windows Administrative Tools" -> double-click on "DHCP" -> right-click on "IPv4" 
 ![Open New Scope Wizard](screenshots/23-open-new-scope-wizard.png)
 
+By opening the Wizard, i first gave the scope following name, same as description.
+![Naming, describing Scope](screenshots/24-naming-scope.png)
+
+Before destinating the DHCP-Scope, i looked up my DNS, same as the Subnet-mask, to type in these informations corecctly.
+![Checking DNS and Subnet mask first](screenshots/25-checking-dns-and-subnet-mask.png)
+
+Afterwards, i set the range of Scope, which IP-addresses i inlcude for now, and typed in the number of my Servers Subnet mask.
+![Setting range, type in given Subnet mask](screenshots/26-destinate-dhcp-scope.png)
+
+To pair Scope-Clients with my DNS i also typed in my Server-name, same as my IP-address. 
+![Pairing Scope-Clients to DNS](screenshots/27-pairing-scope-clients-to-dns.png)
+
 

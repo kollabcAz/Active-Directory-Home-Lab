@@ -1,27 +1,43 @@
 # architecture
 
-           (Home Router / ISP)
-                  ^
-                  |
-            Host OS Internet
-                  ^
-                  |
-        VirtualBox NAT (DC01 NIC1)
-                  ^
-                  |
-      +--------------------------+
-      | DC01 - Windows Server 2019|
-      | AD DS / DNS / DHCP / RRAS |
-      | NIC1: NAT (External)      |
-      | NIC2: ADLAB (Internal)    |
-      +--------------------------+
-                  ^
-                  |
-        Internal Network: ADLAB
-           172.16.0.0/24
-                  ^
-                  |
-      +--------------------------+
-      | CLIENT1 - Windows 10 Pro |
-      | NIC1: ADLAB (Internal)   |
-      +--------------------------+
+                 +----------+
+                 | Internet |
+                 +----------+     
+                       │
+                       │
+                Home Router/ISP
+                       │
+                       │
+                    Host OS
+               (VirtualBox Host)
+                       │
+                 VirtualBox NAT
+                       │
+                       │
+        +--------------------------------+
+        | DC01 – Windows Server 2019     |
+        | Roles Installed:               |
+        | - Active Directory Domain      |
+        |   Services (AD DS)             |
+        | - DNS Server                   |
+        | - DHCP Server                  |
+        | - RRAS (NAT Routing)           |
+        |                                |
+        | NIC1: EXTERNAL (NAT)           |
+        | NIC2: INTERNAL (ADLAB)         |
+        | IP: 172.16.0.10                |
+        +--------------------------------+
+                       │
+                       │
+            Internal Network (ADLAB)
+               Subnet: 172.16.0.0/24
+                       │
+                       │
+        +--------------------------------+
+        | CLIENT1 – Windows 10 Pro       |
+        | Domain Joined                  |
+        | DHCP Client                    |
+        | NIC1: ADLAB                    |
+        +--------------------------------+
+
+        

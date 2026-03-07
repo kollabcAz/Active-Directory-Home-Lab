@@ -22,4 +22,6 @@ Afterwards, i set the range of Scope, which IP-addresses i inlcude for now, and 
 To pair Scope-Clients with my DNS i also typed in my Server-name, same as my IP-address. 
 ![Pairing Scope-Clients to DNS](screenshots/27-pairing-scope-clients-to-dns.png)
 
+And now, the DHCP-Scope-Configuration is completed
+![New Scope completed](screenshots/28-new-scope-completed.png)
 

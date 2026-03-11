@@ -15,7 +15,7 @@ and finally logged in with the User's credentials (Domain Admin), but instad of 
 ![Domain-Log-on](screenshots/32-logging-in-domain.png)
 
 So now it forces a restart.
-![Domain-Log-on-succeed](screenshots/33-joind-succeed-restart-now.png)
+![Domain-Log-on-succeed](screenshots/33-join-succeed-restart-now.png)
 
 While forcing a restart, the vm stucked while loading. So i decided to force the restart via "ctrl + R". The Process of joining the domain didnt vanished, so i normally logged in.
 ![Logging in after restart](screenshots/34-restart-stucked-forced-a-vm-restart-logging-in.png)
